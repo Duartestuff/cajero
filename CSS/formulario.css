@@ -1,0 +1,15 @@
+body{
+    background-image: url('/IMG/back-ground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat;
+    border: 20px solid #08263F;
+}
+.container{
+   
+    background-color: #08263f8f;
+    font-size: x-large;
+    font-weight: 700;
+    color: white;
+    padding-top: 2%;
+}
