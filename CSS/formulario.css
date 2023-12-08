@@ -1,15 +1,16 @@
-body{
-    background-image: url('/IMG/back-ground.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat:repeat;
-    border: 20px solid #08263F;
+body {
+  padding: 25px;
+  background-image: url("/IMG/back-ground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 35px solid #08263f;
+  border-bottom: 35px solid #08263f;
 }
-.container{
-   
-    background-color: #08263f8f;
-    font-size: x-large;
-    font-weight: 700;
-    color: white;
-    padding-top: 2%;
+.container {
+  background-color: #08263f8f;
+  font-size: x-large;
+  font-weight: 700;
+  color: white;
+  padding-top: 2%;
 }

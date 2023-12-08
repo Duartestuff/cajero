@@ -1,0 +1,40 @@
+body {
+  padding: 25px;
+  background-image: url("/IMG/back-ground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.contenedor-login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 25%;
+}
+
+.form {
+  display: flex;
+  background-color: #08263f8f;
+  padding: 5%;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  height: 50%;
+  width: 50%;
+}
+
+.text-center {
+  font-size: 200%;
+  font-weight: 700;
+  color: white;
+}
+
