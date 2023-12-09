@@ -77,7 +77,7 @@ document.getElementById("guardar").addEventListener("click", function () {
         fecha: fecha,
         descripcion: "Apertura de cuenta",
         valor: 200000,
-        tipo: "Consigancion",
+        tipo: "Consignación",
       },
     ],
   };

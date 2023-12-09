@@ -29,3 +29,10 @@ main {
   padding: 5%;
   margin-bottom: 5%;
 }
+
+.text-usuario{
+  color: white;
+  background-color: #08263f9d;
+  padding: 5px 10px;
+  font-weight: 200;
+}
