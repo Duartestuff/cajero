@@ -12,11 +12,11 @@ document.getElementById('login').addEventListener('click', ()=>{
 
     let user = document.getElementById('username').value;
     let pw = document.getElementById('password').value;
-    let currentUser;
-    let logged = false;
+    let currentUser; // Usuario actual
+    let logged = false;// Si se logueo o no
 
     for(let i = 0; i < userList.length; i++){
-
+        
         if(userList[i].user == user && userList[i].password == pw){
             currentUser = userList[i];
             userList[i].Movimientos.push(
