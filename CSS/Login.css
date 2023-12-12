@@ -13,15 +13,6 @@ body {
   padding: 0 25%;
 }
 
-.form {
-  display: flex;
-  background-color: #08263f8f;
-  padding: 5%;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-}
-
 .logo {
   display: flex;
   justify-content: center;
@@ -32,9 +23,24 @@ body {
   width: 50%;
 }
 
-.text-center {
-  font-size: 200%;
-  font-weight: 700;
-  color: white;
+.form {
+  display: flex;
+  background-color: #08263f8f;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3%;
+  gap: 10px;
 }
 
+.text-center {
+  font-size: 150%;
+  font-weight: 500;
+  color: #b7bdc2;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.btn , .btn-info , .mt-3 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}

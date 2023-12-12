@@ -1,21 +1,31 @@
-.container-logout{
-    margin: 20%;
-    padding: 20px;
-    background-color: #08263f9d;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container-logout {
+  position: absolute;
+  right: 2%;
+  left: 2%;
+  top: 8%;
+  bottom: 10%;
+  color: #b7bdc2;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  padding: 5%;
+  margin-bottom: 5%;
+  background-color: #08263f9d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
 }
 
-.container-logout h1{
-
-    font-size: x-large;
-
+.container-logout h1 {
+  font-size: 400%;
 }
 
-.container-logout p{
-
-    font-size: small;
-    text-align: center;
+.container-logout p {
+  font-size: 150%;
+  text-align: center;
 }
+
+.btn , .btn-info , .mt-3 {
+    font-family: "Montserrat", sans-serif;
+  }

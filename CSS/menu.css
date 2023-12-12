@@ -3,7 +3,6 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
-  color: white !important;
   margin-left: 5%;
 }
 
@@ -13,6 +12,7 @@ main {
   border-radius: 10px;
   padding: 5%;
   margin-bottom: 5%;
+  align-items: flex-start;
 }
 
 .logo {
@@ -21,18 +21,31 @@ main {
 }
 
 .datos_usuario {
+  position: absolute;
+  right: 2%;
+  left: 25%;
+  top: 8%;
+  bottom: 10%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-color: #08263f9d;
+  color: #b7bdc2;
+  font-family: "Montserrat", sans-serif;
   border-radius: 10px;
   padding: 5%;
   margin-bottom: 5%;
 }
 
 .text-usuario{
-  color: white;
+  color: #b7bdc2;
   background-color: #08263f9d;
   padding: 5px 10px;
   font-weight: 200;
+  font-family: "Montserrat", sans-serif;
 }
+
+.btn , .btn-info , .mt-3 {
+  font-family: "Montserrat", sans-serif;
+}
+
