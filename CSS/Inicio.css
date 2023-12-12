@@ -29,5 +29,6 @@ nav {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
   padding: 2%;
 }
