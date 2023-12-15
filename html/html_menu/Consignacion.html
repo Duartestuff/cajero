@@ -11,6 +11,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="../../JS/Consignacion.js" defer></script>
     <title>Consignación</title>
   </head>
   <body>
@@ -20,15 +21,17 @@
       <section class="mov">
         <article>
           <h1>Consignación</h1>
+          <h2>Saldo actual</h2>
+          <p id="saldo-actual"></p>
           <br>
         </article>
         
         <div class="botones">
         <section class="valor">
-            <label for="username" class="text-center">Valor</label><br>
-            <input type="text" id="username" name="username" required /><br>
+            <label for="valor" class="text-center">Valor</label><br>
+            <input type="text" id="valor" name="valor" required /><br>
         </section>
-          <button class="btn btn-info mt-3 menu-btn">Aceptar</button>
+          <button class="btn btn-info mt-3 menu-btn" id="consignar">Aceptar</button>
         </div>
       </section>
     </main>
