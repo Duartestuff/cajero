@@ -18,11 +18,12 @@ margin: 8% ;
 
 h1 {
  text-transform: uppercase;
+ font-size: xx-large;
 }
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 100%;;
 }
 
 th, td {
