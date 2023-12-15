@@ -45,6 +45,7 @@ function botonRetirarCajero(tipoRetiro){
         updateUserList(currentUser);
 
         valorRetirar.value = '';
+        window.location.href = '../menu.html';
     })    
 }
 
