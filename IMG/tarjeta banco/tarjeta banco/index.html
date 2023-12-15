@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #08263f9d; /* Fondo de la tarjeta con transparencia */
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 300px;
+      height: 230px; /* Ajusta la altura de la tarjeta según tus necesidades */
+      padding: 20px;
+      border-radius: 10px;
+      background-size: cover;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      color: #123864;
+      text-align: left; /* Alineación del texto a la izquierda */
+      border: 2px solid #2c91d4; /* Borde azul claro predeterminado */
+      transition: box-shadow 0.3s, border-color 0.3s; /* Agrega transición al cambio de sombra y color de borde */
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3); /* Efecto de iluminación blanca al pasar el mouse */
+      border-color: #fff; /* Cambia el color del borde a blanco al pasar el mouse */
+    }
+
+    .card-content {
+      flex-grow: 1;
+    }
+
+    .card-bank {
+      font-size: 28px; /* Tamaño del nombre del banco aumentado */
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #0a2749;
+    }
+
+    .card-number {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .card-details {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+
+    .card-expiry,
+    .card-holder {
+      flex-grow: 1;
+    }
+
+    .card-expiry span,
+    .card-holder span {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .card-expiry span:last-child {
+      text-align: right;
+    }
+
+    .card-holder span {
+      text-transform: uppercase;
+    }
+
+    .card-shield {
+      margin-left: 20px; /* Ajusta el espacio entre la imagen y el texto */
+      margin-top: -10px; /* Mueve la imagen un poco hacia arriba */
+      border: 2px solid #031b2b; /* Borde azul claro predeterminado */
+      border-radius: 5px; /* Borde redondeado para la imagen del escudo */
+    }
+
+    .card-shield img {
+      width: 50px; /* Ajusta el ancho de la imagen */
+      height: 50px; /* Ajusta la altura de la imagen*/
+      border-radius: 3px; /* Borde redondeado para la imagen del escudo */
+    }
+  </style>
+  <title>Tarjeta de Banco</title>
+</head>
+<body>
+  
+  <div class="card">
+    <div class="card-content">
+      <div class="card-bank">Quantumcash</div>
+      <div class="card-number">
+        **** **** **** 1234
+      </div>
+      <div class="card-details">
+        <div class="card-expiry">
+          <span>MM/YY</span>
+          <span>12/23</span>
+        </div>
+        <div class="card-holder">
+          <span>Card Holder</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-shield"><img src="escudosinfondo.jpg" alt=""></div>
+  </div>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
