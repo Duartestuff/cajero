@@ -39,7 +39,7 @@ document.getElementById('consignar').addEventListener('click', ()=>{
 
     localStorage.setItem('current_user', JSON.stringify(currentUser));
     updateUserList(currentUser)
-
+    window.location.href = '../menu.html';
 })
 
 function updateUserList(currentUser){
