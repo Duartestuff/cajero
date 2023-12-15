@@ -1,0 +1,15 @@
+body {
+    background-image: url("/IMG/back-ground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin-left: 5%;
+  }
+
+  .contenedor_elementos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }

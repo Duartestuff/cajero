@@ -28,7 +28,7 @@ body {
   background-color: #08263f8f;
   justify-content: center;
   flex-direction: column;
-  padding: 3%;
+  padding: 2% 5% 5%;
   gap: 10px;
 }
 

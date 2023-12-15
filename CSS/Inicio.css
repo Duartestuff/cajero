@@ -31,4 +31,5 @@ nav {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   padding: 2%;
+  gap: 10px;
 }
