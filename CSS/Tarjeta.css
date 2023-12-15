@@ -71,17 +71,14 @@ body {
   .card-number {
     font-size: 18px;
     margin-bottom: 15px;
+    letter-spacing: 5px;
   }
 
   .card-details {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 14px;
-  }
-
-  .card-expiry,
-  .card-holder {
-    flex-grow: 1;
+    gap: 10px;
   }
 
   .card-expiry span,
