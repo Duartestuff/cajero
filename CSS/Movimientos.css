@@ -1,6 +1,6 @@
 body {
   background-image: url("/IMG/back-ground.png");
-  background-size: cover;
+  background-size:auto;
   background-position: center;
   background-repeat: repeat;
 }
@@ -22,23 +22,40 @@ h1 {
   font-size: xx-large;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th,
-td {
+.movimientos{
+  background-color: #08263fd8;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  width: 100%;
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+
 }
 
-th {
-  background-color: #08263f9d;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+.movimientos h2{
+  font-size: medium;
+  font-weight: 700;
 }
+
+.movimientos p{
+  font-size: smaller;
+}
+
+.detalle-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px rgba(255, 255, 255, 0.356) solid;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.titulo-detalle{
+  font-size: medium !important;
+}
+
+
