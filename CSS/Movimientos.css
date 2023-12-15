@@ -1,0 +1,42 @@
+body {
+    background-image: url("/IMG/back-ground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+.contenedor_tabla {
+    background-color: #08263f9d;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+margin: 8% ; 
+    align-items: center;
+    color: #b7bdc2;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+ text-transform: uppercase;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #08263f9d;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  
+}
