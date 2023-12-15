@@ -24,6 +24,10 @@ body {
   -o-border-radius: 10px;
 }
 
+h1{
+  text-transform: uppercase;
+}
+
 .valor_a_retirar {
   background-color: #08263f9d;
   border-radius: 10px;
