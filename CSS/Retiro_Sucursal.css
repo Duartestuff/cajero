@@ -35,3 +35,11 @@ body {
     margin-bottom: 5%;
   
   }
+
+  .codigo{
+    background-color: #08263f9d;
+    letter-spacing: 5px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+  }
